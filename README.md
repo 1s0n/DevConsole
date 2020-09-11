@@ -21,6 +21,7 @@ Note: The Return/Enter button will automatically be binded to execute commands.
 Usage Examples (Python Code):
 
 
+```
 from PyConsole.Console import Console, Command
 
 console = Console("Console title", "icon path", "background color code") # Create a new console.   all these parameters are optional
@@ -36,5 +37,5 @@ cmd = Command("name", function) # Created a Command Object Called cmd and giving
 console.RegisterCommand(cmd) # Register The Command That We Just Created, You Could Register As Many As You Want
 
 console.mainloop() # Calls the tkinter.mainloop() function
-
+```
 
