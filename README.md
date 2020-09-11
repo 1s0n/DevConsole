@@ -9,13 +9,13 @@ Name Which Is The Name Thats Used To Call The Command In The Console (Note: The 
 
 The Console Will Be A Tkinter Window And It Supports Custom GUI Made In Tkinter But the feature is not tested and polished so there
 may be bugs. There must be these components on the tkinter window if you decide to use the custom GUI feature:
-
+```
 "CommandEntry" - tkinter.Entry Used For Entering Commands
 
 "CommandList" - tkinter.Listbox Used For Displaying Commands
 
 "SubmitButton" - tkinter.Button Used For Submitting Commands
-
+```
 Note: The Return/Enter button will automatically be binded to execute commands.
 
 Usage Examples (Python Code):
