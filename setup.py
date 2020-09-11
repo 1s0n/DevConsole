@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 
 setuptools.setup(
-    name="PyConsole",
+    name="DevConsole",
     version="1.0.0",
     author="JasonTheDev",
     author_email="examqiename@gmail.com",
     description="A Tkinter GUI Console For Executing Commands.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/RandomLolKid/PyConsole",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
