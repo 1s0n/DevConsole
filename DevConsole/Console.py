@@ -32,7 +32,7 @@ class Console:
 		
 
 		if IconPath:
-			if os.exists(IconPath):
+			if os.exist(IconPath):
 				self.window.iconbitmap(IconPath)
 
 		self.window.configure(background=BackGroundColor)
