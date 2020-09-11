@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="DevConsole",
-    version="1.0.0",
+    version="0.1.2",
     author="JasonTheDev",
     author_email="examqiename@gmail.com",
     description="A Tkinter GUI Console For Executing Commands.",

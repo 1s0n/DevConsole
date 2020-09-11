@@ -25,7 +25,7 @@ class Console:
 		self.window.minsize(120, 1)
 		self.window.maxsize(1604, 881)
 		self.window.resizable(1, 1)
-		self.window.title("Console")
+		self.window.title("Developer Console")
 
 		if Title:
 			self.window.title(Title)
