@@ -27,7 +27,7 @@ console = Console("Console title", "icon path", "background color code") # Creat
 
 def function(): # The Function That Will Get Activated When A Command Is Executed
 	print("A Command Has Been Executed Through DevConsole")
-	console.WriteLine("You Just Executed A Command") # Writing A Line To The Console
+	console.Log("You Just Executed A Command") # Writing A Line To The Console
 
 cmd = Command("name", function) # Created a Command Object Called cmd and giving it a name and a function/method to call
 
