@@ -116,7 +116,9 @@ class Console:
 
 	def mainloop(self):
 		tk.mainloop()
-
+	
+	def update(self):
+		self.window.update()
 
 class ConsoleError(Exception):
 	pass
@@ -136,4 +138,7 @@ if __name__ == '__main__':
 	clear = Command("Clear", cl)
 	cons.RegisterCommand(cmd)
 	cons.RegisterCommand(clear)
-	tk.mainloop()
+	
+	for i in range(100000):
+		print(i)
+		cons.update()
